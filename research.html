@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | Mohannad Abu-Romoh</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">M. Abu-Romoh</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="news.html">News</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>Research</h1>
+      <p class="page-subtitle">Optical fiber communications, machine learning, and robotics.</p>
+      <div class="page-header-line"></div>
+    </div>
+
+    <!-- Research Tabs -->
+    <div class="tabs">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="res-pubs">Publications</button>
+        <button class="tab-btn" data-tab="res-areas">Research Areas</button>
+        <button class="tab-btn" data-tab="res-grants">Grants &amp; Funding</button>
+      </div>
+      <div class="tab-panels">
+
+        <!-- Research Areas -->
+        <div class="tab-panel" id="res-areas">
+
+          <h3>Equalization in Optical Fiber Communication</h3>
+          <p class="course-meta">Ph.D. Research &middot; T&eacute;l&eacute;com Paris &amp; Infinera GmbH &middot; 2019&ndash;2023</p>
+          <p>
+            My doctoral research focused on applying model-based neural networks to equalization in coherent optical fiber communication systems. I developed <strong>learned digital back-propagation (LDBP)</strong> algorithms that combine classical DSP structure with deep learning optimization, reducing receiver complexity while maintaining performance in dispersion-managed long-haul and metro systems. I also designed low-complexity convolutional neural network equalizers targeting practical transceiver constraints. This work was conducted within the EU&nbsp;H2020 MSCA <a href="https://real-net.astonphotonics.uk/" target="_blank" rel="noopener">REAL-NET</a> network.
+          </p>
+
+          <hr style="border: none; border-top: 1px solid var(--border-light); margin: 1.5rem 0;">
+
+          <h3>Machine Learning for Wireless Communications</h3>
+          <p class="course-meta">M.Sc. Research &middot; University of Idaho &middot; 2016&ndash;2019</p>
+          <p>
+            During my master&rsquo;s studies, I investigated <strong>low-complexity automatic modulation classification (AMC)</strong> algorithms using statistical moments and likelihood maximization. I implemented and compared machine-learning-based and parametric classifiers under realistic fading and noise conditions, culminating in an IEEE Communications Letters publication.
+          </p>
+
+          <hr style="border: none; border-top: 1px solid var(--border-light); margin: 1.5rem 0;">
+
+          <h3>Robotics &amp; Embedded AI</h3>
+          <p class="course-meta">Ongoing Research &middot; American College of the Middle East &middot; 2024&ndash;Present</p>
+          <p>
+            I am currently developing <strong>AI-assisted segment detection and PID gain scheduling</strong> methods for competitive line-following robots using IR sensor arrays and physics-based simulation. This work explores where machine learning should be inserted within the sensing and control pipeline&mdash;sensor processing, segment recognition, or action generation&mdash;without replacing classical PID control.
+          </p>
+        </div>
+
+        <!-- Publications -->
+        <div class="tab-panel active" id="res-pubs">
+          <p style="margin-bottom: 1.25rem;">
+            <a href="https://scholar.google.com/citations?user=PgkdRooAAAAJ&hl=en" class="btn btn-outline" target="_blank" rel="noopener">Google Scholar Profile &rarr;</a>
+          </p>
+          <ol class="pub-list" reversed>
+            <li>
+              <strong>M. Abu-Romoh</strong>, F. Ziyad, W. Dawaghreh, O. Al-Attia, and Y. Imamverdivey,
+              <span class="pub-title">&ldquo;Machine Learning Placement in Line-Following Robot Control: A Comparative Study of Classical and Learned Pipelines,&rdquo;</span>
+              manuscript in preparation.
+              <span class="pub-badge wip">In Progress</span>
+            </li>
+            <li>
+              <strong>M. Abu-Romoh</strong>,
+              <span class="pub-title">&ldquo;AI-assisted Fast Segment Detection and PID Gain Scheduling for Competitive Line-Following Robots,&rdquo;</span>
+              in <span class="pub-venue">Proc. 15th Int. Conf. Pattern Recognition Applications and Methods (ICPRAM 2026)</span>, SciTePress, 2026.
+              <span class="pub-badge review">Under Review</span>
+            </li>
+            <li>
+              <strong>M. Abu-Romoh</strong>, N. Costa, Y. Jaou&euml;n, A. Napoli, J. Pedro, B. Spinnler, and M. Yousefi,
+              <span class="pub-title">&ldquo;Equalization in dispersion-managed systems using learned digital back-propagation,&rdquo;</span>
+              <span class="pub-venue">Optics Continuum</span>, vol.&nbsp;2, no.&nbsp;10, pp.&nbsp;2088&ndash;2105, Oct.&nbsp;2023.
+              <span class="pub-badge journal">Journal</span>
+              <span class="pub-badge award">Editor&rsquo;s Pick</span>
+            </li>
+            <li>
+              <strong>M. Abu-Romoh</strong>, N. Costa, A. Napoli, B. Spinnler, Y. Jaou&euml;n, and M. Yousefi,
+              <span class="pub-title">&ldquo;Learned Digital Back-Propagation for Dual-Polarization Dispersion Managed Systems,&rdquo;</span>
+              in <span class="pub-venue">Proc. ECOC 2022</span>, pp.&nbsp;We1C.6, Sep.&nbsp;2022.
+              <span class="pub-badge conference">Conference</span>
+            </li>
+            <li>
+              <strong>M. Abu-Romoh</strong>, N. Costa, A. Napoli, J. Pedro, Y. Jaou&euml;n, and M. Yousefi,
+              <span class="pub-title">&ldquo;Low Complexity Convolutional Neural Networks for Equalization in Optical Fiber Transmission,&rdquo;</span>
+              in <span class="pub-venue">Proc. SPPCom 2021</span>, pp.&nbsp;SpM5C.5, Jul.&nbsp;2021.
+              <span class="pub-badge conference">Conference</span>
+            </li>
+            <li>
+              <strong>M. Abu-Romoh</strong>, A. Aboutaleb, and Z. Rezki,
+              <span class="pub-title">&ldquo;Automatic modulation classification using moments and likelihood maximization,&rdquo;</span>
+              <span class="pub-venue">IEEE Communications Letters</span>, vol.&nbsp;22, no.&nbsp;5, pp.&nbsp;938&ndash;941, Feb.&nbsp;2018.
+              <span class="pub-badge journal">Journal</span>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Grants -->
+        <div class="tab-panel" id="res-grants">
+          <div class="card" style="box-shadow: none; border: 1px solid var(--border-light);">
+            <h3>Marie Sk&#322;odowska-Curie Early-Stage Researcher</h3>
+            <p class="meta">
+              REAL-NET (Horizon 2020), European Union
+              <span class="location">France &amp; Germany &middot; Nov. 2019 &ndash; Feb. 2023</span>
+            </p>
+            <ul>
+              <li>Funded Ph.D. fellowship on advanced equalization techniques for optical fiber networks within the REAL-NET ITN/EID consortium.</li>
+            </ul>
+          </div>
+          <div class="card" style="box-shadow: none; border: 1px solid var(--border-light);">
+            <h3>Research Assistantship</h3>
+            <p class="meta">
+              University of Idaho, Dept. of Electrical Engineering
+              <span class="location">Moscow, ID, USA &middot; Oct. 2016 &ndash; Oct. 2018</span>
+            </p>
+            <ul>
+              <li>Graduate research assistantship supporting work on machine-learning-based modulation classification for wireless communications.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="mailto:mnaburomoh@outlook.com">Email</a>
+      <a href="https://scholar.google.com/citations?user=PgkdRooAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a>
+      <a href="https://fr.linkedin.com/in/armohannad" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Aburomoh" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p>&copy; 2026 Mohannad Abu-Romoh</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
